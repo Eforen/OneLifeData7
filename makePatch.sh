@@ -1,0 +1,2 @@
+# The argument provided should be the commit ID of the commit before your first commit
+cp $(git diff-tree --no-commit-id --name-only -r $1) patch/
